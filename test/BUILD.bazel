@@ -5,7 +5,7 @@ cc_test(
     srcs = ["quick.cpp"],
     deps = [
         "//:bind",
-        "@boost//config",
-        "@boost//core",
+        "@boost//libs/config",
+        "@boost//libs/core",
     ],
 )
